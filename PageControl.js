@@ -14,7 +14,7 @@ var PageControl = createReactClass({
         pageIndicatorTintColor: PropTypes.string,
         currentPageIndicatorTintColor: PropTypes.string,
         indicatorSize: PropTypes.object,
-        indicatorStyle: View.propTypes.style,
+        indicatorStyle: PropTypes.style,
         currentIndicatorStyle: View.propTypes.style,
         onPageIndicatorPress: PropTypes.func
     },
